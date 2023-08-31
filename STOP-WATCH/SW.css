@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2e133a ;
+}
+
+.container {
+    background-color: transparent;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1.338);
+    border-color: wheat;
+    border: 12px;
+}
+
+.timer-display {
+    position: relative;
+    width: 90%;
+    background: transparent;
+    left: 4%;
+    font-family: 'bahnschrift', monospace;
+    color: white;
+    font-size: 65px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 04px 04px 40px rgba(240, 218, 215, 0.25);
+}
+.timer-display span{
+    color: red;
+}
+.buttons {
+    width: 100%;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 135px;
+    height: 45px;
+    background-color: hotpink;
+    color: navajowhite;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 1.05);
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #60b244 ;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #56415f;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.05);
+}
